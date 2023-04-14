@@ -1,0 +1,156 @@
+:root {
+    --primary-brand:#4D5AE5;
+    --dark:#2E2F42;
+    --pressed-state:#404BBF;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --white-background: #FFFFFF;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark);
+}
+
+li {
+    list-style:none;
+}
+
+.reference {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: var(--primary-brand);
+}
+
+.logo-studio {
+    color: var(--dark);
+}
+
+
+.nav {
+    color: var(--dark);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.nav:hover,
+.nav:active,
+.nav:focus,
+.contact:hover,
+.contact:active,
+.contact:focus,
+.active {
+    color:var(--pressed-state);
+}
+
+.contact {
+    color: var(--text);
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero {
+    background-color: var(--dark);
+}
+
+.hero-header {
+    color: var(--white-background);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    white-space: pre-line;
+}
+
+.hero-button {
+    font-family:inherit;
+    background-color: var(--primary-brand);
+    color: var(--white-background);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.features-header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+}
+
+.features-text {
+    color: var(--text);
+    line-height:1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.seaction-header {
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.our-team {
+    background-color: var(--light);
+}
+
+.team-card {
+    background-color: var(--white-background);
+}
+
+.card-name {
+    font-size: 20px;
+    line-height: 1.2;   
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.card-position {
+    color: var(--text);
+    line-height: 24px;
+}
+
+.footer {
+    background-color: var(--dark);
+    color: var(--light);
+}
+.logo-studio-footer {
+    color: var(--light);
+}
+
+.footer-text {
+    white-space: pre-line;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* PORTFOLIO */
+
+.filter {
+    color: var(--primary-brand);
+    background-color: var(--light);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
