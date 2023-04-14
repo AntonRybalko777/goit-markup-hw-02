@@ -14,25 +14,26 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: var(--dark);
+    color: var(--text);
+    background-color: var(--white-background);
 }
 
-li {
+.list {
     list-style:none;
 }
 
-.reference {
+.link {
     text-decoration: none;
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-}
-
-.logo-web {
     color: var(--primary-brand);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
 }
 
 .logo-studio {
@@ -90,6 +91,7 @@ li {
 }
 
 .features-header {
+    color: var(--dark);
     font-size: 20px;
     font-weight: 500;
     line-height:1.5;
@@ -97,13 +99,13 @@ li {
 }
 
 .features-text {
-    color: var(--text);
     line-height:1.5;
     letter-spacing: 0.02em;
 
 }
 
 .seaction-header {
+    color: var(--dark);
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -126,7 +128,6 @@ li {
 }
 
 .card-position {
-    color: var(--text);
     line-height: 24px;
 }
 
